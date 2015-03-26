@@ -1,5 +1,5 @@
 h1  {
-   color: red; 
+  color: blue;
   }
   p#index-title {
     text-align: center;
@@ -21,6 +21,19 @@ section {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
 }
+
+.social-btn {
+  display: block;
+  width: 150px;
+  background-color: rgba(255, 0, 0, 0.10);
+  border: double 2px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0 0;
+  text-align: center;
+  border-color: black;
+}
+
 
 
 // Place all the styles related to the welcome controller here.
