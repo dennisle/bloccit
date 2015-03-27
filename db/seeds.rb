@@ -1,5 +1,11 @@
 require 'faker'
  
+ Post.create!(
+  title: "Test",
+  body: "No!, a test!"
+)
+
+
  # Create Posts
  50.times do
    Post.create!(
