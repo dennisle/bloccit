@@ -5,7 +5,7 @@ class CreateAdvertisements < ActiveRecord::Migration
       t.text :copy
       t.integer :price
 
-      t.timestamps 
+      t.timestamps null: false
     end
   end
 end
